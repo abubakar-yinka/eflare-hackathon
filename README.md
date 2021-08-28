@@ -8,17 +8,17 @@
 
 According to satellite data from **Nigeria’s environment ministry**, oil companies in the country flare over **313.0mscf of gas annually** which ultimately results in **16.5m tonnes of CO2 emitted into the atmosphere**. In a similar fashion, **World Bank’s Global Gas Flaring Reduction Partnership (GGFRP)** ranks Nigeria as the **6th largest gas flaring country globally**. Gas flaring has been a severe menace, partiarly in the Niger Delta, causing several economic and health losses for its citizens. In the oil-rich Niger Delta of southern Nigeria, about 2 million people live within 4 kilometers (2.5 miles) of a gas flare (Schick et al, 2018), which makes them more vulnerable to several health issues as well as deformities in children especially. From the year 1996-2010, in Nigeria, 12,602,480.25 million ft3 of natural gas was flared (NNPC). This is equivalent to losing about 12,967.952 × 1012 Btu of energy that would have been used for something profitable.
 
-![Untitled](Hackathon%20-%20AI%20for%20Energy%208ca0de6068274936aa122cf6a050445c/Untitled.png)
+![Untitled](Images/Untitled.png)
 
-![Untitled](Hackathon%20-%20AI%20for%20Energy%208ca0de6068274936aa122cf6a050445c/Untitled%201.png)
+![Untitled](Images/Untitled_1.png)
 
-![Untitled](Hackathon%20-%20AI%20for%20Energy%208ca0de6068274936aa122cf6a050445c/Untitled%202.png)
+![Untitled](Images/Untitled_2.png)
 
-![Untitled](Hackathon%20-%20AI%20for%20Energy%208ca0de6068274936aa122cf6a050445c/Untitled%203.png)
+![Untitled](Images/Untitled_3.png)
 
-![Untitled](Hackathon%20-%20AI%20for%20Energy%208ca0de6068274936aa122cf6a050445c/Untitled%204.png)
+![Untitled](Images/Untitled_4.png)
 
-![Untitled](Hackathon%20-%20AI%20for%20Energy%208ca0de6068274936aa122cf6a050445c/Untitled%205.png)
+![Untitled](Images/Untitled_5.png)
 
 ## 1.2  Cause of the problem
 
@@ -66,7 +66,7 @@ Gas flaring introduces toxic pollutants such as sulfur dioxide, carbon dioxide a
 
 The economic effect of gas flaring is quantified in terms of the lost amount of revenue that could have been generated from utilizing the volume of gas flared therefore, we should solve this problem in order to obtain revenue to finance other projects because the amount of potential revenue lost from gas flaring is comical to say the least.
 
-![Untitled](Hackathon%20-%20AI%20for%20Energy%208ca0de6068274936aa122cf6a050445c/Untitled%206.png)
+![Untitled](Images/Untitled_6.png)
 
 Also, we the problem should be solved in order:
 
