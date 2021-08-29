@@ -1,0 +1,36 @@
+{
+  "name": "eflare-hackathon",
+  "version": "1.0.0",
+  "description": "Entry app for the AI for Energy Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abubakar-yinka/eflare-hackathon.git"
+  },
+  "author": "Abubakar Ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abubakar-yinka/eflare-hackathon/issues"
+  },
+  "homepage": "https://github.com/abubakar-yinka/eflare-hackathon#readme",
+  "dependencies": {
+    "connect-mongo": "^4.5.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.12"
+  }
+}
