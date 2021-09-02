@@ -1,0 +1,17 @@
+{
+  "Chart": {
+    "description": "Auto imported from components/Chart.vue"
+  },
+  "Input": {
+    "description": "Auto imported from components/Input.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Simulate": {
+    "description": "Auto imported from components/Simulate.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  }
+}
