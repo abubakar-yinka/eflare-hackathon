@@ -10,20 +10,20 @@
 
         <div class="header-logo">
             <a href="/">
-                <img src="favicon.ico" alt="Homepage">
+                <img src="../assets/no-fire.svg" alt="Homepage">
             </a>
         </div>
 
         <div  class="header-content">
 
             <nav class="row header-nav-wrap">
-                <ul class="header-nav">
+                <ul style="font-size:13px;" class="header-nav">
                     <li><a class="smoothscroll" href="#home" title="Intro">Home</a></li>
                     <li><a class="smoothscroll" href="#about" title="About">About Us</a></li>
                   </ul>
             </nav> <!-- end header-nav-wrap -->
 
-            <a @click="calculate"  class="btn btn--stroke btn--small">Calculator</a>
+            <button style="font-size:13px;" @click="calculate"  class="btn btn--stroke btn--small">Calculator</button>
 
         </div> <!-- end header-content -->
 
@@ -41,7 +41,7 @@
 
             <div  class="column large-full">
 
-                <h1 style="text-shadow: 5px 5px 5px #111">
+                <h1 style="text-shadow: 5px 5px 5px #111;font-size:55px;">
                    End Gas flaring<br>
                     in Nigeria<br>
 
@@ -64,10 +64,16 @@
   <section class="mission ml-4 px-2">
 <h3>Our mission</h3>
 
-<p>To convince investors to channel resources into refined natural gas and associated gases because it will markedly
+<p class="col-6">To convince investors to channel resources into refined natural gas and associated gases because it will markedly
    reduce or even eliminate gas flaring incidences which will ultimately lead to reduced greenhouse gas
     emissions(which is highly detrimental to the surrounding environment, lives and properties) and consequently, carbon reduction in accordance with the Paris agreement, 
   when provided with sufficient data and powerful insights with the aid of AI.</p>
+
+
+
+
+
+  <h3></h3>
     
   </section>
 
@@ -162,7 +168,7 @@ main {
 /* Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari. */
 h1 {
-	font-size: 1.5em;
+	font-size: 1em;
 	margin: 0.67em 0;
 }
 
@@ -3043,7 +3049,7 @@ input::-moz-focus-inner {
 .s-header {
   z-index: 100;
   width: 100%;
-  height: 4.8rem;
+  height: 4rem;
   position: absolute;
   top: 2rem;
   left: 0;
@@ -3454,7 +3460,7 @@ input::-moz-focus-inner {
 }
 
 .hero-content {
-  height: 100%;
+  height: 90%;
   max-width: 1400px;
   -ms-flex-align: end;
   -webkit-box-align: end;
