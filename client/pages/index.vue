@@ -61,14 +61,74 @@
     </section> <!-- end s-hero -->
 
 
-  <section class="mission ml-4 px-2">
-<h3>Our mission</h3>
+  <section id="about"  class="mission  d-flex mt-4 justify-content-between px-0">
+    <div class="text col-6 d-flex flex-column justify-content-center  align-items-center">
+      <div class="col-10">
+<h3>mission</h3>
 
-<p class="col-6">To convince investors to channel resources into refined natural gas and associated gases because it will markedly
+<p >To convince investors to channel resources into refined natural gas and associated gases because it will markedly
    reduce or even eliminate gas flaring incidences which will ultimately lead to reduced greenhouse gas
     emissions(which is highly detrimental to the surrounding environment, lives and properties) and consequently, carbon reduction in accordance with the Paris agreement, 
   when provided with sufficient data and powerful insights with the aid of AI.</p>
+</div>
+</div>
+<div class="pic col-6">
+  <img style="width:100%;height:100%"  src="../assets/flare.jpg" alt="">
+</div>
 
+
+
+  <h3></h3>
+    
+  </section>
+
+
+  <section class="quote d-flex flex-column justify-content-center align-items-center">
+<div class="col-10 mt-4 py-2 new">"For our part, we will redouble
+our efforts to collaborate with high gas flaring countries,
+particularly in developing countries, and work closely with
+governments and oil companies to address the most common
+challenges to gas flaring reduction."</div>
+<div class=" d-flex col-10 mb-3">
+
+<div class="pic ">
+  <img class="rounded-circle" style="height:70px;width:70px;" src="../assets/Zubin.jpg" alt="">
+</div>
+
+
+  <div class="d-flex flex-column ml-3 mt-2">
+
+
+    <span style="font-size:1.1rem;" class="font-weight-bold">Zubin Bamji</span>  <span style="font-size:0.9rem">Program Manager,
+Global Gas Flaring Reduction Partnership
+World Bank</span>
+
+
+  </div>
+
+</div>
+
+
+  </section>
+
+ <section  class="mission  d-flex  justify-content-between px-0">
+
+   <div class="pic col-6">
+  <img style="width:100%;height:100%"  src="../assets/green.jpg" alt="">
+</div>
+    <div class="text col-6 d-flex flex-column justify-content-center  align-items-center">
+      <div class="col-10">
+<h3>Solution</h3>
+
+<p >Inline with the World bank's efforts in reducing flaring in Nigeria our solution harnesses the great power of AI predictions and efficient IOTs to deploy an intelligent model that accurately
+  predicts gas well yields using a variety of set parameters measured in real time. Equipped with this information 
+  investors will be able to make informed choices regarding investing in gas flare sites. Ultimately this would help cut
+  down massively on flaring.
+</p>
+
+
+</div>
+</div>
 
 
 
@@ -76,6 +136,72 @@
   <h3></h3>
     
   </section>
+<div class="container my-1 col-12">
+  <!-- Footer -->
+  <footer class="text-center text-white col-12" style="background-color: #3f51b5;font-size:13px;">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+    
+      <!-- Section: Links -->
+
+      <hr class="my-5" />
+
+      <!-- Section: Text -->
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              distinctio earum repellat quaerat voluptatibus placeat nam,
+              commodi optio pariatur est quia magnam eum harum corrupti
+              dicta, aliquam sequi voluptate quas.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Social -->
+      <section class="text-center mb-5">
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
 
                    
 </body>
@@ -98,13 +224,25 @@ export default {
 
 <style scoped>
 
-.mission h3, P{
-  color:#fff;
+.mission{
+
+  background: #fff;
 }
 
 .mission p{
   font-size:1.1rem;
    font-family: "Gothic A1", sans-serif;
+}
+
+
+.quote{
+  background: #f9861a;
+  color:#fff;
+
+}
+
+.quote .new{
+  font-size:1.9rem;
 }
 
 /* =================================================================== 

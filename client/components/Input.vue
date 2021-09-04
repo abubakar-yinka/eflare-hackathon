@@ -74,8 +74,15 @@ group col-4">
     <input type="" class="form-control">
 </div>
 
+
+
+
 </div>
 
+      </div>
+
+      <div class="submit col-lg-12 d-flex justify-content-center mt-4">
+          <button class="col-6 mt-2 py-2 font-weight-bold" type="submit">Simulate</button>
       </div>
   </div>
 </template>
@@ -103,5 +110,15 @@ font-family: "Gothic A1", sans-serif;
 input{
     background: #0A0912;
     border: 1.3px solid #191931;
+}
+
+.submit button{
+    background: #191931;
+    color:#fff;
+    border:none;
+}
+
+.submit button:hover{
+    border:1px solid #fff;
 }
 </style>

@@ -10,4 +10,5 @@ You can directly use them in pages and other components without the need to impo
 - `<Input>` | `<input>` (components/Input.vue)
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<Simulate>` | `<simulate>` (components/Simulate.vue)
+- `<Spinner>` | `<spinner>` (components/spinner.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
