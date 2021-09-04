@@ -11,6 +11,9 @@
   "Simulate": {
     "description": "Auto imported from components/Simulate.vue"
   },
+  "Spinner": {
+    "description": "Auto imported from components/spinner.vue"
+  },
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   }

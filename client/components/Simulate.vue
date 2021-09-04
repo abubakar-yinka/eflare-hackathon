@@ -32,6 +32,8 @@
 
 <div class="chart shadow">
     <Chart/>
+
+    
 </div>
   </div>
 </template>

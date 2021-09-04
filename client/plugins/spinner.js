@@ -1,0 +1,1 @@
+import CubeSpin from 'vue-loading-spinner/components/Cube'

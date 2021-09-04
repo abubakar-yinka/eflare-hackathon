@@ -2,6 +2,7 @@ export { default as Chart } from '../..\\components\\Chart.vue'
 export { default as Input } from '../..\\components\\Input.vue'
 export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
 export { default as Simulate } from '../..\\components\\Simulate.vue'
+export { default as Spinner } from '../..\\components\\spinner.vue'
 export { default as Tutorial } from '../..\\components\\Tutorial.vue'
 
 // nuxt/nuxt.js#8607
