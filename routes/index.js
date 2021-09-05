@@ -6,6 +6,7 @@ const calculatorController = require('../controllers/calculatorController')
 
 // console.log(random_well_parameters);
 router.get('/autofill', (req, res) => {
+    console.log(res.json(calculatorController.autofill_data))
     res.json(calculatorController.autofill_data)
 })
 
