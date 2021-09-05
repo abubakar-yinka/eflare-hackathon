@@ -2,22 +2,22 @@
   {
     "name": "map",
     "path": "/map",
-    "component": "C:\\\\Users\\\\Maryam\\\\Documents\\\\joovlin\\\\eflare-hackathon\\\\client\\\\pages\\\\map\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yinka\\\\Desktop\\\\Projects\\\\eflare-hackathon\\\\client\\\\pages\\\\map\\\\index.vue",
     "chunkName": "pages/map/index",
-    "_name": "_c8be786e"
+    "_name": "_2c53d18a"
   },
   {
     "name": "solution",
     "path": "/solution",
-    "component": "C:\\\\Users\\\\Maryam\\\\Documents\\\\joovlin\\\\eflare-hackathon\\\\client\\\\pages\\\\solution\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yinka\\\\Desktop\\\\Projects\\\\eflare-hackathon\\\\client\\\\pages\\\\solution\\\\index.vue",
     "chunkName": "pages/solution/index",
-    "_name": "_3b05ccf6"
+    "_name": "_2a965e78"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Maryam\\\\Documents\\\\joovlin\\\\eflare-hackathon\\\\client\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Yinka\\\\Desktop\\\\Projects\\\\eflare-hackathon\\\\client\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_360665cf"
+    "_name": "_07e3331d"
   }
 ]
