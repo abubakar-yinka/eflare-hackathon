@@ -8,14 +8,14 @@
     <div class="form-
 group col-4">
 <label for="">Temperature</label>
-    <input type="" class="form-control">
+    <input v-model="temp" type="" class="form-control" readonly>
 </div>
 
 
  <div class="form-
 group col-4">
 <label for="">Moisture Level</label>
-    <input type="" class="form-control">
+    <input v-model="moisture" type="" class="form-control" readonly>
 </div>
 
 </div>
@@ -27,14 +27,14 @@ group col-4">
     <div class="form-
 group col-4">
 <label for="">Water Injection</label>
-    <input type="" class="form-control">
+    <input type="" class="form-control" readonly>
 </div>
 
 
  <div class="form-
 group col-4">
 <label for="">Pressure Levels</label>
-    <input type="" class="form-control">
+    <input type="" class="form-control" readonly>
 </div>
 
 </div>
@@ -46,14 +46,14 @@ group col-4">
     <div class="form-
 group col-4">
 <label for="">Gas Flow Rate</label>
-    <input type="" class="form-control">
+    <input type="" class="form-control" readonly>
 </div>
 
 
  <div class="form-
 group col-4">
 <label for="">Gas Injection</label>
-    <input type="" class="form-control">
+    <input type="" class="form-control" readonly>
 </div>
 
 </div>
@@ -64,14 +64,14 @@ group col-4">
     <div class="form-
 group col-4">
 <label for="">Number of wells</label>
-    <input type="" class="form-control">
+    <input type="" class="form-control" readonly>
 </div>
 
 
  <div class="form-
 group col-4">
 <label for="">Water Rate</label>
-    <input type="" class="form-control">
+    <input type="" class="form-control" readonly>
 </div>
 
 
@@ -88,7 +88,17 @@ group col-4">
 </template>
 
 <script>
+//import axios from 'axios'
 export default {
+
+    data(){
+        return{
+            temp:'hii',
+            moisture:70,
+            injection:'500',
+            pressure:''
+        }
+    }
 
 }
 </script>
