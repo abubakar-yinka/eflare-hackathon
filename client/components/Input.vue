@@ -7,14 +7,14 @@
 
     <div class="form-
 group col-4">
-<label for="">Temperature</label>
+<label for="">Dynamic Level</label>
     <input v-model="temp" type="" class="form-control" readonly>
 </div>
 
 
  <div class="form-
 group col-4">
-<label for="">Moisture Level</label>
+<label for="">Liquid Volume</label>
     <input v-model="moisture" type="" class="form-control" readonly>
 </div>
 
@@ -27,14 +27,14 @@ group col-4">
     <div class="form-
 group col-4">
 <label for="">Water Injection</label>
-    <input type="" class="form-control" readonly>
+    <input v-model="water" type="" class="form-control" readonly>
 </div>
 
 
  <div class="form-
 group col-4">
 <label for="">Pressure Levels</label>
-    <input type="" class="form-control" readonly>
+    <input v-model="pressure" type="" class="form-control" readonly>
 </div>
 
 </div>
@@ -43,17 +43,12 @@ group col-4">
 <div class="col-12 d-flex justify-content-center mt-4">
 
 
-    <div class="form-
-group col-4">
-<label for="">Gas Flow Rate</label>
-    <input type="" class="form-control" readonly>
-</div>
-
+   
 
  <div class="form-
 group col-4">
-<label for="">Gas Injection</label>
-    <input type="" class="form-control" readonly>
+<label for="">Oil Level</label>
+    <input v-model="oil" type="" class="form-control" readonly>
 </div>
 
 </div>
@@ -63,15 +58,15 @@ group col-4">
 
     <div class="form-
 group col-4">
-<label for="">Number of wells</label>
-    <input type="" class="form-control" readonly>
+<label for="">Working Hours</label>
+    <input v-model="working" type="" class="form-control" readonly>
 </div>
 
 
  <div class="form-
 group col-4">
 <label for="">Water Rate</label>
-    <input type="" class="form-control" readonly>
+    <input v-model="water_volume" type="" class="form-control" readonly>
 </div>
 
 
@@ -88,15 +83,49 @@ group col-4">
 </template>
 
 <script>
-//import axios from 'axios'
+import axios from 'axios'
 export default {
+
+
+  async  mounted(){
+      await this.fetchData()
+  },
 
     data(){
         return{
             temp:'hii',
             moisture:70,
             injection:'500',
-            pressure:''
+            pressure:'',
+            gas:'',
+            water:'',
+            water_volume:'',
+            working:'',
+            oil:'',
+            data:[]
+        }
+    },
+
+    methods:{
+        async fetchData()
+        {
+            axios.get('http://localhost:5000/autofill').then(
+                response=>{
+  if(response.status==200){
+      console.log(response.data[0])
+      this.data=response.data[0]
+      this.temp=this.data.dynamic_level
+      this.moisture=this.data.vol_of_liquid
+      this.pressure=this.data.reservoir_pressure
+      this.gas=this.data.gas_volume
+      this.water=this.data.water_cut
+      this.water_volume=this.data.water_volume
+this.working=this.data.working_hours
+this.oil=this.data.oil_volume
+  }
+                }
+              
+            )
         }
     }
 

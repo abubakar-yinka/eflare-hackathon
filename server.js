@@ -16,6 +16,11 @@ const app = express();
 app.use(express.json());
 // app.use(express.urlencoded()); //Parse URL-encoded bodies
 
+//cors
+
+const cors = require('cors')
+app.use(cors())
+
 //Routes
 if (process.env.NODE_ENV === 'production') {
     //Express will serve up production assets
