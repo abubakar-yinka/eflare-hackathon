@@ -1,16 +1,16 @@
 const express = require('express')
 const dotenv = require('dotenv')
-const connectDB = require('./config/db')
+// const connectDB = require('./config/db')
 const path = require('path');
 
 // Load config
 dotenv.config({ path: './config.env'})
 
-//Connect database
-connectDB()
+// //Connect database
+// connectDB()
 
-//Models
-require('./model/Store')
+// //Models
+// require('./model/Store')
 
 const app = express();
 app.use(express.json());
