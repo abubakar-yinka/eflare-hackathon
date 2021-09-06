@@ -61,8 +61,8 @@
     </section> <!-- end s-hero -->
 
 
-  <section id="about"  class="mission  d-flex mt-4 justify-content-between px-0">
-    <div class="text col-6 d-flex flex-column justify-content-center  align-items-center">
+  <section id="about"  class="mission  d-sm-flex d-block mt-4 justify-content-between px-0">
+    <div class="text col-sm-6 col-12 d-flex flex-column justify-content-center  align-items-center">
       <div class="col-10">
 <h3>mission</h3>
 
@@ -72,7 +72,9 @@
   when provided with sufficient data and powerful insights with the aid of AI.</p>
 </div>
 </div>
-<div class="pic col-6">
+
+
+<div class="pic col-sm-6 col-12">
   <img style="width:100%;height:100%"  src="../assets/flare.jpg" alt="">
 </div>
 
@@ -111,13 +113,13 @@ World Bank</span>
 
   </section>
 
- <section  class="mission  d-flex  justify-content-between px-0">
+ <section  class="mission  d-sm-flex d-block  justify-content-between px-0">
 
-   <div class="pic col-6">
+   <div class="pic col-sm-6 col-12">
   <img style="width:100%;height:100%"  src="../assets/green.jpg" alt="">
 </div>
-    <div class="text col-6 d-flex flex-column justify-content-center  align-items-center">
-      <div class="col-10">
+    <div class="text col-sm-6 col-12 d-sm-flex d-block flex-column justify-content-center  align-items-center">
+      <div class="col-10 px-2">
 <h3>Solution</h3>
 
 <p >Inline with the World bank's efforts in reducing flaring in Nigeria our solution harnesses the great power of AI predictions and efficient IOTs to deploy an intelligent model that accurately
@@ -133,57 +135,30 @@ World Bank</span>
 
 
 
-  <h3></h3>
     
   </section>
-<div class="container my-1 col-12">
+<div class="container col-12">
   <!-- Footer -->
-  <footer class="text-center text-white col-12" style="background-color: #3f51b5;font-size:13px;">
+  <footer class="text-center text-white col-12" style="background-color: #0A0912;font-size:13px;">
     <!-- Grid container -->
     <div class="container">
       <!-- Section: Links -->
     
       <!-- Section: Links -->
 
-      <hr class="my-5" />
+      <hr class="my-0" />
 
       <!-- Section: Text -->
       <section class="mb-5">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-8">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti
-              dicta, aliquam sequi voluptate quas.
-            </p>
+         
           </div>
         </div>
       </section>
       <!-- Section: Text -->
 
-      <!-- Section: Social -->
-      <section class="text-center mb-5">
-        <a href="" class="text-white me-4">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-github"></i>
-        </a>
-      </section>
-      <!-- Section: Social -->
+      
     </div>
     <!-- Grid container -->
 
@@ -192,9 +167,9 @@ World Bank</span>
          class="text-center p-3"
          style="background-color: rgba(0, 0, 0, 0.2)"
          >
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
-         >MDBootstrap.com</a
+      © 2021 Copyright:
+      <a class="text-white" href="https://eflare-hackathon.vercel.app/"
+         >E-flare</a
         >
     </div>
     <!-- Copyright -->

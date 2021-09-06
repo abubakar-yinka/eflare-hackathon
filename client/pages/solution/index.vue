@@ -22,13 +22,13 @@
 export default {
 data(){
   return{
-    payment:"Simulate"
+    payment:"Input"
   }
 },
 
 methods:{
   sendInput(){
-    this.payment="Input"
+    this.payment="Simulate"
   }
 }
 }

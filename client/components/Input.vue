@@ -76,9 +76,9 @@ group col-4">
 
       </div>
 
-      <div class="submit col-lg-12 d-flex justify-content-center mt-4">
+      <!-- <div class="submit col-lg-12 d-flex justify-content-center mt-4">
           <button @click="openSimulate" class="col-6 mt-2 py-2 font-weight-bold">Simulate</button>
-      </div>
+      </div> -->
   </div>
 </template>
 
@@ -93,15 +93,15 @@ export default {
 
     data(){
         return{
-            temp:'hii',
+            temp:280,
             moisture:70,
-            injection:'500',
-            pressure:'',
-            gas:'',
-            water:'',
-            water_volume:'',
-            working:'',
-            oil:'',
+            injection:500,
+            pressure:1130,
+            gas:300,
+            water:605,
+            water_volume:450,
+            working:22,
+            oil:100,
             data:[]
         }
     },
@@ -129,7 +129,7 @@ this.oil=this.data.oil_volume
         },
         openSimulate(){
             this.$router.push({
-                path:'/solution'
+                path:'/solution#calculator'
             })
         }
     }
