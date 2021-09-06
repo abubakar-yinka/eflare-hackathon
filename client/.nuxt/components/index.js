@@ -1,9 +1,9 @@
-export { default as Chart } from '../..\\components\\Chart.vue'
-export { default as Input } from '../..\\components\\Input.vue'
-export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
-export { default as Simulate } from '../..\\components\\Simulate.vue'
-export { default as Spinner } from '../..\\components\\spinner.vue'
-export { default as Tutorial } from '../..\\components\\Tutorial.vue'
+export const Chart = () => import('../..\\components\\Chart.vue' /* webpackChunkName: "components/chart" */).then(c => wrapFunctional(c.default || c))
+export const Input = () => import('../..\\components\\Input.vue' /* webpackChunkName: "components/input" */).then(c => wrapFunctional(c.default || c))
+export const NuxtLogo = () => import('../..\\components\\NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c))
+export const Simulate = () => import('../..\\components\\Simulate.vue' /* webpackChunkName: "components/simulate" */).then(c => wrapFunctional(c.default || c))
+export const Spinner = () => import('../..\\components\\spinner.vue' /* webpackChunkName: "components/spinner" */).then(c => wrapFunctional(c.default || c))
+export const Tutorial = () => import('../..\\components\\Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
