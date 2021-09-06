@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node server",
     "dev": "cross-env NODE_ENV=development nodemon server",
-    "build": "cd client && npm run generate"
+    "build": "cd client && npm install && npm run generate"
   },
   "repository": {
     "type": "git",
