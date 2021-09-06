@@ -77,7 +77,7 @@ group col-4">
       </div>
 
       <div class="submit col-lg-12 d-flex justify-content-center mt-4">
-          <button class="col-6 mt-2 py-2 font-weight-bold" type="submit">Simulate</button>
+          <button @click="openSimulate" class="col-6 mt-2 py-2 font-weight-bold">Simulate</button>
       </div>
   </div>
 </template>
@@ -126,6 +126,11 @@ this.oil=this.data.oil_volume
                 }
               
             )
+        },
+        openSimulate(){
+            this.$router.push({
+                path:'/solution'
+            })
         }
     }
 

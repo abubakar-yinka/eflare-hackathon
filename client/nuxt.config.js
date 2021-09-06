@@ -5,6 +5,12 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+
+    target:"static",
+    ssr:false,
+    generate:{
+fallback:true
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
