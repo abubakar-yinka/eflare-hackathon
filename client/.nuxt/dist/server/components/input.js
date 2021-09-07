@@ -14,7 +14,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(5).default
 module.exports.__inject__ = function (context) {
-  add("ff265334", content, true, context)
+  add("3a0d2a3b", content, true, context)
 };
 
 /***/ }),
@@ -24,9 +24,9 @@ module.exports.__inject__ = function (context) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_6b21e95e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_6b21e95e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_6b21e95e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_6b21e95e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_6b21e95e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_c15a1210_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_c15a1210_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_c15a1210_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_c15a1210_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_style_index_0_id_c15a1210_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -39,7 +39,7 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 ___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Gothic+A1:300,300i,400,400i,500,500i,600,600i,700,700i|Martel:300,300i,400,400i,700,700i,900,900i|Work+Sans:600,700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "label[data-v-6b21e95e]{color:#fff;font-size:1.2rem;font-weight:700}*[data-v-6b21e95e],label[data-v-6b21e95e]{font-family:\"Gothic A1\",sans-serif}input[data-v-6b21e95e]{background:#0a0912;border:1.3px solid #191931}.submit button[data-v-6b21e95e]{background:#191931;color:#fff;border:none}.submit button[data-v-6b21e95e]:hover{border:1px solid #fff}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "label[data-v-c15a1210]{color:#fff;font-size:1.2rem;font-weight:700}*[data-v-c15a1210],label[data-v-c15a1210]{font-family:\"Gothic A1\",sans-serif}input[data-v-c15a1210]{background:#0a0912;border:1.3px solid #191931}.submit button[data-v-c15a1210]{background:#191931;color:#fff;border:none}.submit button[data-v-c15a1210]:hover{border:1px solid #fff}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -53,12 +53,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Input.vue?vue&type=template&id=6b21e95e&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"col-12 \" data-v-6b21e95e><div class=\"col-12 d-flex justify-content-center mt-4\" data-v-6b21e95e><div class=\"form-\ngroup col-4\" data-v-6b21e95e><label for data-v-6b21e95e>Dynamic Level</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.temp)))+" class=\"form-control\" data-v-6b21e95e></div> <div class=\"form-\ngroup col-4\" data-v-6b21e95e><label for data-v-6b21e95e>Liquid Volume</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.moisture)))+" class=\"form-control\" data-v-6b21e95e></div></div> <div class=\"col-12 d-flex justify-content-center mt-4\" data-v-6b21e95e><div class=\"form-\ngroup col-4\" data-v-6b21e95e><label for data-v-6b21e95e>Water Injection</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.water)))+" class=\"form-control\" data-v-6b21e95e></div> <div class=\"form-\ngroup col-4\" data-v-6b21e95e><label for data-v-6b21e95e>Pressure Levels</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.pressure)))+" class=\"form-control\" data-v-6b21e95e></div></div> <div class=\"col-12 d-flex justify-content-center mt-4\" data-v-6b21e95e><div class=\"form-\ngroup col-4\" data-v-6b21e95e><label for data-v-6b21e95e>Oil Level</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.oil)))+" class=\"form-control\" data-v-6b21e95e></div></div> <div class=\"col-12 d-flex justify-content-center mt-4\" data-v-6b21e95e><div class=\"form-\ngroup col-4\" data-v-6b21e95e><label for data-v-6b21e95e>Working Hours</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.working)))+" class=\"form-control\" data-v-6b21e95e></div> <div class=\"form-\ngroup col-4\" data-v-6b21e95e><label for data-v-6b21e95e>Water Rate</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.water_volume)))+" class=\"form-control\" data-v-6b21e95e></div></div></div>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Input.vue?vue&type=template&id=c15a1210&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"col-12 \" data-v-c15a1210><div class=\"col-12 d-flex justify-content-center mt-4\" data-v-c15a1210><div class=\"form-\ngroup col-4\" data-v-c15a1210><label for data-v-c15a1210>Dynamic Level</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.temp)))+" class=\"form-control\" data-v-c15a1210></div> <div class=\"form-\ngroup col-4\" data-v-c15a1210><label for data-v-c15a1210>Liquid Volume</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.moisture)))+" class=\"form-control\" data-v-c15a1210></div></div> <div class=\"col-12 d-flex justify-content-center mt-4\" data-v-c15a1210><div class=\"form-\ngroup col-4\" data-v-c15a1210><label for data-v-c15a1210>Water Injection</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.water)))+" class=\"form-control\" data-v-c15a1210></div> <div class=\"form-\ngroup col-4\" data-v-c15a1210><label for data-v-c15a1210>Pressure Levels</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.pressure)))+" class=\"form-control\" data-v-c15a1210></div></div> <div class=\"col-12 d-flex justify-content-center mt-4\" data-v-c15a1210><div class=\"form-\ngroup col-4\" data-v-c15a1210><label for data-v-c15a1210>Oil Level</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.oil)))+" class=\"form-control\" data-v-c15a1210></div></div> <div class=\"col-12 d-flex justify-content-center mt-4\" data-v-c15a1210><div class=\"form-\ngroup col-4\" data-v-c15a1210><label for data-v-c15a1210>Working Hours</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.working)))+" class=\"form-control\" data-v-c15a1210></div> <div class=\"form-\ngroup col-4\" data-v-c15a1210><label for data-v-c15a1210>Water Rate</label> <input type readonly=\"readonly\""+(_vm._ssrAttr("value",(_vm.water_volume)))+" class=\"form-control\" data-v-c15a1210></div></div></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Input.vue?vue&type=template&id=6b21e95e&scoped=true&
+// CONCATENATED MODULE: ./components/Input.vue?vue&type=template&id=c15a1210&scoped=true&
 
 // EXTERNAL MODULE: external "axios"
 var external_axios_ = __webpack_require__(27);
@@ -172,7 +172,7 @@ var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_)
 
   methods: {
     async fetchData() {
-      external_axios_default.a.get('https://eflare-hackathon.vercel.app/autofill').then(response => {
+      external_axios_default.a.get('https://eflare-backend.herokuapp.com/autofill').then(response => {
         if (response.status == 200) {
           console.log(response.data[0]);
           this.data = response.data[0];
@@ -220,7 +220,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "6b21e95e",
+  "c15a1210",
   "6c3a7802"
   
 )

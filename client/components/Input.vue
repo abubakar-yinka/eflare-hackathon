@@ -109,7 +109,7 @@ export default {
     methods:{
         async fetchData()
         {
-            axios.get('https://eflare-hackathon.vercel.app/autofill').then(
+            axios.get('https://eflare-backend.herokuapp.com/autofill').then(
                 response=>{
   if(response.status==200){
       console.log(response.data[0])
